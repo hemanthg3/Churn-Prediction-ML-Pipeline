@@ -25,13 +25,12 @@ churn-ml-pipeline/
 │   └── Telco-Customer-Churn.csv
 │
 ├── notebooks/
-│   └── p3b_pipeline.ipynb
+│   └── Telecom_Churn.ipynb
 │
 ├── src/
 │   └── train.py
 │
 ├── model.pkl
-├── scaler.pkl
 ├── README.md
 ```
 
@@ -75,7 +74,6 @@ The project follows a structured pipeline:
 8. **Model Saving**
 
    * Save trained model (`model.pkl`)
-   * Save scaler (`scaler.pkl`)
 
 ---
 
@@ -112,7 +110,7 @@ python src/train.py
 Open:
 
 ```
-notebooks/p3b_pipeline.ipynb
+notebooks/Telecom_Churn.ipynb
 ```
 
 ---
@@ -122,7 +120,6 @@ notebooks/p3b_pipeline.ipynb
 After running the pipeline:
 
 * `model.pkl` → Trained ML model
-* `scaler.pkl` → Preprocessing scaler
 
 ---
 
